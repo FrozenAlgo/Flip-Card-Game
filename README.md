@@ -153,7 +153,7 @@ Modify the Tailwind classes in `index.html` or add custom CSS in `style.css`.
 
 ## 📞 Contact
 
-Your Name - [@FrozenAlgo](https://portfolio-kappa-nine-204xtzt9as.vercel.app/) - arhamrehan427@gmail.com
+Your Name - [@Arham Rehan](https://portfolio-kappa-nine-204xtzt9as.vercel.app/) - arhamrehan427@gmail.com
 
 Project Link: [https://github.com/FrozenAlgo/Flip-Card-Game](https://github.com/FrozenAlgo/Flip-Card-Game)
 
