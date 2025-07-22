@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+cursor: pointer;
+  transition: background-color 0.3s;
+  height: 5.6rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   -webkit-backdrop-filter: blur(10px) saturate(180%);
+    backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(255,255,255,.5);
+}
+.card.flipped {
+  @apply bg-cyan-950 shadow-inner  ;
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}

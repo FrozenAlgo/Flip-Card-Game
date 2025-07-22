@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <title>Flipcard</title>
+</head>
+<body class="relative ">
+    <div class="announcer absolute text-6xl font-bold   h-dvh w-dvw flex justify-center align-middle">
+
+    </div>
+    <div class="bg-cyan-950 grid  w-dvw h-dvh place-content-center font-serif ">
+        <h4 class="text-center font-bold text-3xl text-white mb-3">
+            Flip Card Game <span class="font-thin text-cyan-100" id="timer"></span>
+        </h4>
+        <div class="main grid grid-cols-4 gap-4 p-5 text-center   items-center-safe shadow-2xl rounded-t-lg h-100 w-100 bg-[url('img.jpg')]  bg-cover bg-no-repeat bg-center animate__animated animate__fadeIn text-cyan-950 ">
+        </div>
+        <button class="p-4 bg-white rounded-b-lg text-cyan-950 font-bold text-lg animate__animated animate__fadeIn " onclick="{location.reload()}">Reset</button>
+    </div>   
+    
+    <script src="script.js"></script>
+</body>
+</html>
